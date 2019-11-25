@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* --------------------------Variables */
+:root{
+  /* Colores */
+  --green-color:#7ACC2D;
+  --white-color:white;
+  --black-color:#313337;
+  /* Tipografia */
+  --normal:12px;
+  /* Espaciado */
+  --space:10px;
+  /* Box shadow */
+  --box:0 0 2px #dddddd;
+}
+
+/* --------------------------Variables */
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color:var(--white-color);
+}
+
+label , p{
+  font-size: var(--normal);
+}
+
+
+
+/* -------------------------------Main section */
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+.products{
+  background-image: url("../imagenes/curve.png");
+  height: 40px;
+  background-size: cover;
+  background-position: center top;
+  padding:15%;
+  display: flex;
+}
+.product{
+  padding: var(--space);
+  margin-top: -300px;
+}
+
+.product .content{
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+.image_content{
+  text-align: center;
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border:0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.main_button:hover{
+  background-color: #6fb82b;
+}
+/* -------------------------------Termina Main section */
+
+/* -------------------------------Home section */
+/* .characteristics{
+  display: flex;
+
+  margin-top: -100px;
+
+}
+
+.characteristic{
+  padding: 60px;
+
+
+
+}
+
+.characteristic .content{
+  text-align: justify;
+} */
+
+/* -------------------------caracteristicas */
+.characteristics{
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+  display: flex;
+  margin-top: -100px;
+
+}
+
+.characteristic{
+  margin-top: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+
+.characteristic .content{
+  text-align: center;
+}
+/* ------------------------- fin caracteristicas */
+/* ------------------------------------menciones */
+.mention_section{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.mentions{
+  padding: 5%;
+  display:flex;
+}
+
+.mention{
+  padding: 40px;
+}
+
+.mention .content{
+  box-shadow: var(--box);
+}
+
+.image_content_mention{
+  width: 100%;
+  height: auto;
+}
+/* ------------------------------------fin menciones */
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: 0 0 2px;
+  padding: 10px;
+}
+.modulo_pago_img{
+  max-width: 150px;
+  margin: auto;
+}
+
+.data{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+  margin-top: 10px;
+}
+
+/* ------------------------footer */
+
+footer{
+  display: flex;
+  background-color: var(--black-color);
+  padding: 20px;
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+  }
+
+footer a{
+    color: var(--white-color);
+    text-decoration: none;
+  }
+
+footer a:hover{
+    color:black;
+}
+
+}
+
+/* ------------------------fin footer */
+
+/* -------------------------------Termina Home section */
+
+
+/* ------------------- Inicio Ventas */
